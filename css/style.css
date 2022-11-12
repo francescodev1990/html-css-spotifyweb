@@ -59,7 +59,9 @@ ul{
 span{
     color: white;
 }
-
+.sidebar-list ul li a i{
+    color: white;
+}
 
 
 
