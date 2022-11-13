@@ -29,6 +29,10 @@
     clear: right;
     margin: 15px 5px 0 0;
 }
+.btn-white:hover{
+    color: #5e5e5e;
+    cursor: pointer;
+}
 
 /* SEZIONE SIDEBAR */
 
@@ -47,24 +51,24 @@
 }
 .sidebar-list{
     position: absolute;
-    bottom: 990px;
-    padding: 16px;
-    margin-left: 3px;
-    width: 100%;
-    line-height: 1.5;
+    left: 20px;
+    bottom: 1031px;
 }
-ul{
+.sidebar-list ul{
     list-style-type: none;
 }
-span{
+.sidebar-list ul li{
+    padding: 3px 3px;
+}
+.sidebar-list ul li a{
+    color: #5e5e5e;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+.sidebar-list ul li a:hover{
     color: white;
 }
-.sidebar-list ul li a i{
-    color: white;
-}
-
-
-
 
 
 
