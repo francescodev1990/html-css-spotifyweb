@@ -134,21 +134,19 @@ hr{
    cursor: pointer;
  }
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* SEZIONE MAIN */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -181,4 +179,108 @@ hr{
     max-width: 100%;
     max-height: 100%;
     background-color: #141922;
+}
+.progress{
+    width: 350px;
+    height: 10px;
+    background-color: #5e5e5e;
+    border-radius: 5px;
+    overflow: hidden;
+    position: absolute;
+}
+.progress_ _fill{
+    width: 50%;
+    height: 100%;
+    background-color: #282828;
+}
+.icons{
+    flex-direction: row;
+}
+.icons ul{
+    display: flex;
+    list-style-type: none;
+}
+.icons ul li{
+    position: relative;
+    bottom: 25px;
+    padding: 11px;
+    left: 92px;
+}
+.vol{
+    flex-direction: row;
+}
+.vol ul{
+    display: flex;
+    list-style-type: none;
+}
+.vol ul li{
+    position: relative;
+    left: 172px;
+    padding: 3px;
+}
+.progress-min{
+    width: 60px;
+    height: 10px;
+    background-color: #5e5e5e;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    left: 245px;
+    bottom: 20px;
+}
+.progress_ _min{
+    width: 50%;
+    height: 100%;
+    background-color: #282828;
+}
+.progress:hover{
+    cursor: pointer;
+}
+.icons:hover{
+    color: #5e5e5e;
+    padding: 5px;
+}
+.icons ul li:hover{
+    cursor: pointer;
+}
+.vol:hover{
+    cursor: pointer;
+    color: #5e5e5e;
+    padding: 5px;
+}
+.img-sx{
+    flex-direction: row;
+   
+}
+.img-sx ul{
+    display: flex;
+    list-style-type: none;
+}
+.img-sinister{
+    width: 50px;
+}
+.sx{
+    font-size: 15px;
+    position: relative;
+    left: 7px;
+    top: 15px;
+}
+.icons-2{
+    flex-direction: row;
+}
+.icons-2 ul{
+    display: flex;
+    list-style-type: none;
+}
+.icons-2 ul li{
+    position: relative;
+    left: 150px;
+    bottom: 39px;
+    color: #5e5e5e;
+    padding: 5px;
+}
+.icons-2 ul li:hover{
+    color: white;
+    cursor: pointer;
+    padding: 8px;
 }
