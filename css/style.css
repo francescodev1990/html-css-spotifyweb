@@ -8,6 +8,13 @@
     width: 100%;
     display: flex;
 }
+hr{
+    width: 200px;
+    color: #5e5e5e;
+    position: absolute;
+    bottom: -75px;
+    left: 10px;
+}
 
 /* SEZIONE HEADER */
 
@@ -19,6 +26,7 @@
     clear: right;
 }
 .btn-white{
+    width: 250px;
     background-color: #000000;
     color: white;
     font-weight: 600;
@@ -49,6 +57,9 @@
     color: white;
     font-size: 30px;
 }
+.logo-sp:hover{
+   cursor: pointer;
+}
 .sidebar-list{
     position: absolute;
     left: 20px;
@@ -69,6 +80,67 @@
 .sidebar-list ul li a:hover{
     color: white;
 }
+.playlist{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    bottom: 990px;
+    left: 25px;
+}
+.new-playlist{
+    color: #5e5e5e;
+    font-size: 14px;
+    position: absolute;
+    bottom: 950px;
+    left: 25px;
+}
+.playlist-list{
+    position: absolute;
+    bottom: 730px;
+    left: 25px;
+}
+.playlist-list:hover{
+    cursor: pointer;
+}
+.playlist-list ul{
+   list-style-type: none;
+}
+.playlist-list ul li{
+    color: #5e5e5e;
+    line-height: 30px;
+ }
+ .playlist-list ul li:hover{
+    color: white;
+ }
+ .install-app{
+    position: absolute;
+    bottom: -65px;
+    left: 25px;
+    color: #5e5e5e;
+    font-size: 16px;
+ }
+ .install-app:hover{
+   color: white;
+   cursor: pointer;
+ }
+ .artist-name{
+    position: absolute;
+    bottom: -120px;
+    left: 25px;
+    color: white;
+ }
+ .artist-name:hover{
+   color: #5e5e5e;
+   cursor: pointer;
+ }
+
+ 
+
+
+
+
+
+
 
 
 
@@ -77,23 +149,6 @@
 
 
 /* SEZIONE MAIN */
-
-.col-33{
-    width: calc(100% / 3);
-    color: white;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    margin: 15px;
-}
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    max-height: 100%;
-    background-color: #141922;
-}
-
 
 
 
@@ -111,4 +166,19 @@
     height: 100%;
     background-color: #282828;
     color: white;
+}
+.col-33{
+    width: calc(100% / 3);
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #141922;
 }
