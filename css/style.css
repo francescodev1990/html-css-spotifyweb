@@ -27,6 +27,7 @@ hr{
 }
 .btn-white{
     width: 250px;
+    height: 50%;
     background-color: #000000;
     color: white;
     font-weight: 600;
@@ -56,6 +57,7 @@ hr{
 .logo-sp{
     color: white;
     font-size: 30px;
+    height: 100%;
 }
 .logo-sp:hover{
    cursor: pointer;
@@ -93,6 +95,11 @@ hr{
     position: absolute;
     bottom: 950px;
     left: 25px;
+}
+.new-playlist:hover{
+   color: white;
+   padding: 2px;
+   cursor: pointer;
 }
 .playlist-list{
     position: absolute;
@@ -137,7 +144,55 @@ hr{
 
 /* SEZIONE MAIN */
 
+.container-nav{
+    display: flex;
+    justify-content: center;
+}
+.container-nav ul{
+    list-style-type: none;
+}
+.nav-bar ul li{
+    display: inline;
+    padding: 3px;
+    color: #5e5e5e;
+    font-weight: 700;
+    position: relative;
+    top: 25px;
+}
+.nav-bar ul li:hover{
+   color: white;
+   cursor: pointer;
+   text-decoration: underline;
+}
+.hr-nav{
+    position: absolute;
+    bottom: 1202px;
+    left: 205px;
+    width: 50px;
+    height: 3px;
+    color: #adff2f;
+}
 
+
+
+
+main{
+    width: 1000px;
+    height: 1249px;
+    background-color: #141922;
+    position: absolute;
+    left: 225px;
+    bottom: -140px;
+}
+
+.col{
+    width: calc(100% / 3);
+    height: 250px;
+    background-color: white;
+    border: 2px solid black;
+    position: relative;
+    top: 100px;
+}
 
 
 
@@ -280,7 +335,10 @@ hr{
     padding: 5px;
 }
 .icons-2 ul li:hover{
-    color: white;
+    color: red;
     cursor: pointer;
     padding: 8px;
+}
+.icons-2 ul li:active{
+    color: yellow;
 }
