@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .row{
     width: 100%;
     display: flex;
@@ -162,7 +161,7 @@ p{
 .nav-bar ul li{
     display: inline;
     padding: 3px;
-    color: #5e5e5e;
+    color: #787a7f;
     font-weight: 700;
     position: relative;
     top: 25px;
@@ -317,11 +316,48 @@ main{
     font-size: 25px;
     margin-left: 10px;
 }
-
-
-
-
-
+.description{
+    font-size: 13px;
+    color:#787a7f;
+    position: absolute;
+    top: 643px;
+    left: 10px;
+}
+.name-1, .name-2{
+    color: white;
+}
+.name-1{
+    position: absolute;
+    top: 920px;
+    left: 27px;
+    font-size: 18px;
+}
+.name-2{
+    position: absolute;
+    top: 920px;
+    left: 225px;
+    font-size: 18px;
+}
+.artist{
+    color: white;
+    position: absolute;
+    top: 990px;
+    left: 10px;
+    font-size: 25px;
+}
+.container-img-circle img{
+    width: 185px;
+    border-radius: 50%;
+    position: relative;
+    right: 290px;
+    top: 180px;
+}
+.description-2{
+    color: #787a7f;
+    position: relative;
+    top: 605px;
+    left: 10px;
+}
 
 
 /* SEZIONE FOOTER */
