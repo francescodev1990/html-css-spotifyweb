@@ -200,6 +200,11 @@ main{
     width: 140px;
     height: 100%;
 }
+.container-main img:hover{
+    width: 150px;
+    height: 200px;
+    cursor: pointer;
+}
 .text-img-1{
     color: white;
     position: absolute;
@@ -216,6 +221,7 @@ main{
     position: relative;
     top: 5px;
 }
+
 .text-img-2{
     color: white;
     position: absolute;
@@ -309,6 +315,12 @@ main{
     width: 140px;
     height: 100%;
 }
+.container-small img:hover{
+    width: 150px;
+    height: 200px;
+    cursor: pointer;
+}
+
 .Doe{
     color: white;
     position: absolute;
@@ -352,6 +364,7 @@ main{
     right: 290px;
     top: 180px;
 }
+
 .description-2{
     color: #787a7f;
     position: relative;
@@ -490,3 +503,4 @@ main{
 .icons-2 ul li:active{
     color: yellow;
 }
+
